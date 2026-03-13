@@ -477,7 +477,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Bing.Wang2@ibm.com</value>
-    <value name="lastModifiedDate">1773388056536</value>
+    <value name="lastModifiedDate">1773420782305</value>
     <value name="displayName">BrewPak_Order</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -498,6 +498,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">0</value>
       </record>
       <null name="/0/0"/>
       <null name="/0/1"/>
@@ -505,6 +506,10 @@
       <null name="/0/3"/>
       <null name="/0/4"/>
       <null name="/0/5"/>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="itemType">ALL</value>
+        <value name="name">NEW</value>
+      </record>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
