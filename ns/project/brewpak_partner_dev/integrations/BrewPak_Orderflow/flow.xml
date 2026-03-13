@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.2" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP NAME="TRANSFORM" TIMEOUT="" MODE="STANDALONE">
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/purchaseOrder;2;0/purchaseOrderNumber;1;0" TO="/purchaseOrder;2;0/purchaseOrderNumber;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/purchaseOrder;2;0/purchaseOrderDate;1;0" TO="/purchaseOrder;2;0/purchaseOrderDate;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/purchaseOrder;2;0/shipTo;2;0/name;1;0" TO="/purchaseOrder;2;0/shipTo;2;0/name;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/purchaseOrder;2;0/shipTo;2;0/id;1;0" TO="/purchaseOrder;2;0/shipTo;2;0/id;1;0">
+</MAPCOPY>
+</MAP>
+
+<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+</SEQUENCE>
+</FLOW>
