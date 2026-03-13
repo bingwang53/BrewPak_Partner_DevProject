@@ -7,6 +7,15 @@ packages:
   gitUrl: https://github.com/bingwang53
   gitUsername: bingwang53
   gitBranch: main
+services:
+- serviceName: project.brewpak_partner_dev.integrations:BrewPak_SalesOrder
+  packages:
+  - name: BrewPak_Partner_DevProject
+    version: "1.0"
+- serviceName: pub.json:documentToJSONString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2105
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
