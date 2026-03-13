@@ -476,9 +476,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Bing.Wang2@ibm.com</value>
-    <value name="createdDate">1773387294721</value>
-    <value name="lastModifiedDate">1773387294721</value>
+    <value name="lastModifiedBy">Bing.Wang2@ibm.com</value>
+    <value name="lastModifiedDate">1773388056536</value>
     <value name="displayName">BrewPak_Order</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -489,11 +488,23 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
       </record>
-      <record name="/1" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
-      </record>
+      <null name="/0/0"/>
+      <null name="/0/1"/>
+      <null name="/0/2"/>
+      <null name="/0/3"/>
+      <null name="/0/4"/>
+      <null name="/0/5"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
