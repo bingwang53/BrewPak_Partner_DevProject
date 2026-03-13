@@ -19,6 +19,7 @@
           <value name="node_type">record</value>
           <value name="node_subtype">unknown</value>
           <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="id">b1c3a300-1ead-11f1-bfc2-ebf261d163a4</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">purchaseOrder</value>
@@ -32,6 +33,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="id">b1c3a300-1ead-11f1-bfc2-ebf261d163a4/b1c3a301-1ead-11f1-bfc2-ebf261d163a4</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">purchaseOrderNumber</value>
@@ -45,6 +47,7 @@
               <value name="node_type">unknown</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="id">b1c3a300-1ead-11f1-bfc2-ebf261d163a4/b1c3a302-1ead-11f1-bfc2-ebf261d163a4</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">purchaseOrderDate</value>
@@ -58,6 +61,7 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="id">b1c3a300-1ead-11f1-bfc2-ebf261d163a4/b1c3a303-1ead-11f1-bfc2-ebf261d163a4</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">shipTo</value>
@@ -70,6 +74,9 @@
                 <record javaclass="com.wm.util.Values">
                   <value name="node_type">unknown</value>
                   <value name="node_subtype">unknown</value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="id">b1c3a300-1ead-11f1-bfc2-ebf261d163a4/b1c3a303-1ead-11f1-bfc2-ebf261d163a4/b1c3a305-1ead-11f1-bfc2-ebf261d163a4</value>
+                  </record>
                   <value name="is_public">false</value>
                   <value name="field_name">name</value>
                   <value name="field_type">string</value>
@@ -81,6 +88,9 @@
                 <record javaclass="com.wm.util.Values">
                   <value name="node_type">unknown</value>
                   <value name="node_subtype">unknown</value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="id">b1c3a300-1ead-11f1-bfc2-ebf261d163a4/b1c3a303-1ead-11f1-bfc2-ebf261d163a4/b1c3a306-1ead-11f1-bfc2-ebf261d163a4</value>
+                  </record>
                   <value name="is_public">false</value>
                   <value name="field_name">id</value>
                   <value name="field_type">string</value>
@@ -96,6 +106,7 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="id">b1c3a300-1ead-11f1-bfc2-ebf261d163a4/b1c3a304-1ead-11f1-bfc2-ebf261d163a4</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">lineItems</value>
@@ -108,6 +119,9 @@
                 <record javaclass="com.wm.util.Values">
                   <value name="node_type">record</value>
                   <value name="node_subtype">unknown</value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="id">b1c3a300-1ead-11f1-bfc2-ebf261d163a4/b1c3a304-1ead-11f1-bfc2-ebf261d163a4/b1c3ca10-1ead-11f1-bfc2-ebf261d163a4</value>
+                  </record>
                   <value name="is_public">false</value>
                   <value name="field_name">item</value>
                   <value name="field_type">record</value>
@@ -120,6 +134,9 @@
                     <record javaclass="com.wm.util.Values">
                       <value name="node_type">unknown</value>
                       <value name="node_subtype">unknown</value>
+                      <record name="node_hints" javaclass="com.wm.util.Values">
+                        <value name="id">b1c3a300-1ead-11f1-bfc2-ebf261d163a4/b1c3a304-1ead-11f1-bfc2-ebf261d163a4/b1c3ca10-1ead-11f1-bfc2-ebf261d163a4/b1c3f120-1ead-11f1-bfc2-ebf261d163a4</value>
+                      </record>
                       <value name="is_public">false</value>
                       <value name="field_name">lineNumber</value>
                       <value name="field_type">string</value>
@@ -131,6 +148,9 @@
                     <record javaclass="com.wm.util.Values">
                       <value name="node_type">unknown</value>
                       <value name="node_subtype">unknown</value>
+                      <record name="node_hints" javaclass="com.wm.util.Values">
+                        <value name="id">b1c3a300-1ead-11f1-bfc2-ebf261d163a4/b1c3a304-1ead-11f1-bfc2-ebf261d163a4/b1c3ca10-1ead-11f1-bfc2-ebf261d163a4/b1c3f121-1ead-11f1-bfc2-ebf261d163a4</value>
+                      </record>
                       <value name="is_public">false</value>
                       <value name="field_name">quantity</value>
                       <value name="field_type">string</value>
@@ -142,6 +162,9 @@
                     <record javaclass="com.wm.util.Values">
                       <value name="node_type">unknown</value>
                       <value name="node_subtype">unknown</value>
+                      <record name="node_hints" javaclass="com.wm.util.Values">
+                        <value name="id">b1c3a300-1ead-11f1-bfc2-ebf261d163a4/b1c3a304-1ead-11f1-bfc2-ebf261d163a4/b1c3ca10-1ead-11f1-bfc2-ebf261d163a4/b1c3f122-1ead-11f1-bfc2-ebf261d163a4</value>
+                      </record>
                       <value name="is_public">false</value>
                       <value name="field_name">uom</value>
                       <value name="field_type">string</value>
@@ -153,6 +176,9 @@
                     <record javaclass="com.wm.util.Values">
                       <value name="node_type">unknown</value>
                       <value name="node_subtype">unknown</value>
+                      <record name="node_hints" javaclass="com.wm.util.Values">
+                        <value name="id">b1c3a300-1ead-11f1-bfc2-ebf261d163a4/b1c3a304-1ead-11f1-bfc2-ebf261d163a4/b1c3ca10-1ead-11f1-bfc2-ebf261d163a4/b1c3f123-1ead-11f1-bfc2-ebf261d163a4</value>
+                      </record>
                       <value name="is_public">false</value>
                       <value name="field_name">unitPrice</value>
                       <value name="field_type">string</value>
@@ -164,6 +190,9 @@
                     <record javaclass="com.wm.util.Values">
                       <value name="node_type">unknown</value>
                       <value name="node_subtype">unknown</value>
+                      <record name="node_hints" javaclass="com.wm.util.Values">
+                        <value name="id">b1c3a300-1ead-11f1-bfc2-ebf261d163a4/b1c3a304-1ead-11f1-bfc2-ebf261d163a4/b1c3ca10-1ead-11f1-bfc2-ebf261d163a4/b1c3f124-1ead-11f1-bfc2-ebf261d163a4</value>
+                      </record>
                       <value name="is_public">false</value>
                       <value name="field_name">buyerPartNumber</value>
                       <value name="field_type">string</value>
@@ -175,6 +204,9 @@
                     <record javaclass="com.wm.util.Values">
                       <value name="node_type">unknown</value>
                       <value name="node_subtype">unknown</value>
+                      <record name="node_hints" javaclass="com.wm.util.Values">
+                        <value name="id">b1c3a300-1ead-11f1-bfc2-ebf261d163a4/b1c3a304-1ead-11f1-bfc2-ebf261d163a4/b1c3ca10-1ead-11f1-bfc2-ebf261d163a4/b1c3f125-1ead-11f1-bfc2-ebf261d163a4</value>
+                      </record>
                       <value name="is_public">false</value>
                       <value name="field_name">vendorPartNumber</value>
                       <value name="field_type">string</value>
@@ -476,21 +508,12 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Bing.Wang2@ibm.com</value>
-    <value name="createdDate">1773386551624</value>
-    <value name="lastModifiedDate">1773386551624</value>
+    <value name="lastModifiedBy">Bing.Wang2@ibm.com</value>
+    <value name="lastModifiedDate">1773386775092</value>
     <value name="displayName">BrewPak_Order</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">CONTROLS</value>
-        <value name="name">TRANSFORM</value>
-        <number name="ui_step_index" type="Long">1</number>
-        <value name="nodePathNew">0</value>
-        <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">1</number>
-      </record>
-      <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">ALL</value>
         <value name="name">NEW</value>
       </record>
